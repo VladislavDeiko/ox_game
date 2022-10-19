@@ -1,9 +1,11 @@
-import Board from "../board/Board";
+import Game from "../game/Game";
+
+
 
 function App() {
   return (
     <div className="App">
-        <Board/>
+        <Game/>
     </div>
   );
 }
