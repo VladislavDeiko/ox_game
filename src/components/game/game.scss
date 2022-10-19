@@ -10,6 +10,13 @@
         color: white;
         margin-top: 20px;
     }
+    &__score {
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        color: white;
+        margin-top: 20px;
+    }
 }
 
 
@@ -24,7 +31,7 @@
     font-weight: 700;
     border: none;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 30px;
     transition: all .5s;
     cursor: pointer;
     &:hover {
@@ -35,3 +42,21 @@
         background-color: rgb(109, 108, 108);
     }
 }
+
+.my-node-enter {
+    opacity: 0;
+  }
+  
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms;
+  }
+  
+  .my-node-exit {
+    opacity: 1;
+  }
+  
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 2000ms;
+  }
